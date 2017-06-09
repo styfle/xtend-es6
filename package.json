@@ -1,0 +1,53 @@
+{
+  "name": "xtend-es6",
+  "version": "1.0.0",
+  "description": "extend like a modern boss with Object.assign()",
+  "keywords": [
+    "extend",
+    "merge",
+    "options",
+    "opts",
+    "object",
+    "array",
+    "clone",
+    "assign"
+  ],
+  "author": "Steven <steven@ceriously.com>",
+  "repository": "git://github.com/styfle/xtend-es6.git",
+  "main": "immutable",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~4.6.3"
+  },
+  "homepage": "https://github.com/styfle/xtend-es6",
+  "contributors": [
+    {
+      "name": "Steven"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/styfle/xtend-es6/issues"
+  },
+  "license": "MIT",
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/9..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest"
+    ]
+  },
+  "engines": {
+    "node": ">=4.0"
+  }
+}
