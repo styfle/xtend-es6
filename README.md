@@ -1,14 +1,14 @@
 # xtend-es6
 
-[![browser support][3]][4]
-
-[![locked](http://badges.github.io/stability-badges/dist/locked.svg)][5]
-
+[![Build Status](https://travis-ci.org/styfle/xtend-es6.svg?branch=master)][1]
+[![locked](http://badges.github.io/stability-badges/dist/locked.svg)][2]
 Extend like a modern boss using Object.assign()
 
-xtend-es6 is a basic utility library which allows you to extend an object by appending all of the properties from each object in a list. When there are identical properties, the right-most property takes precedence.
+`xtend-es6` is a basic utility library which allows you to extend an object by appending all of the properties from each object in a list. When there are identical properties, the right-most property takes precedence.
 
-It's a drop-in replacement for `xtend`. In fact, just copy the source and remove this dependency entirely. Really, this is a native JavaScript feature now.
+It's a drop-in replacement for [xtend](https://www.npmjs.com/package/xtend) that is slightly smaller.
+
+In fact, just copy the [source][5] and then you won't need this dependency! Really, this is a native JavaScript feature now!
 
 ## Examples
 
@@ -25,11 +25,17 @@ const combination = extend({
 // { a: "a", b: "b" }
 ```
 
-## Stability status: Locked
 
-## MIT Licenced
+## Support
+
+Works anywhere `Object.assign()` works
+
+- [Modern browsers][3]
+- [Node.js][4] v4+
 
 
-  [3]: http://ci.testling.com/styfle/xtend-es6.png
-  [4]: http://ci.testling.com/styfle/xtend-es6
-  [5]: http://github.com/badges/stability-badges
+[1]: https://travis-ci.org/styfle/xtend-es6
+[2]: http://github.com/badges/stability-badges
+[3]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Browser_compatibility
+[4]: https://kangax.github.io/compat-table/es6/#test-Object_static_methods
+[5]: https://github.com/styfle/xtend-es6/blob/master/immutable.js
